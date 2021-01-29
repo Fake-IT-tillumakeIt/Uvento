@@ -1,9 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 
 *,
 *::after,
 *::before {
   box-sizing: border-box;
+}
+
+:root {
+  --primary-font-color: #fff;
+  --background-color: #102733;
+  --cards-background-color: #29404e;
 }
 
 html {
