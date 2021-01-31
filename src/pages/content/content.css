@@ -7,3 +7,13 @@
 h4 {
   color: var(--primary-font-color);
 }
+
+footer {
+  display: grid;
+  grid-auto-flow: column;
+  width: 414px;
+  height: 98px;
+  background-color: #152f3e;
+  align-items: center;
+  justify-content: center;
+}
