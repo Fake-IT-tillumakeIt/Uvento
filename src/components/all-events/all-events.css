@@ -33,3 +33,6 @@
   overflow-x: auto;
   column-gap: 20px;
 }
+.card-container::-webkit-scrollbar {
+  display: none;
+}
