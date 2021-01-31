@@ -1,0 +1,23 @@
+.btn {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  grid-gap: 15px;
+  width: 138px;
+  height: 55px;
+  border-radius: 27px;
+  color: #ffa700;
+  background-color: #102733;
+  font-family: "Muli", sans-serif;
+  font-weight: bold;
+}
+
+.footerbar {
+  width: 298px;
+  height: 55px;
+  display: grid;
+  grid-auto-flow: column;
+  background-color: #152f3e;
+  align-items: center;
+  justify-content: space-between;
+}
