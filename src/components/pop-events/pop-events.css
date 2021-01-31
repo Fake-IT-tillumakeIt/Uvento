@@ -32,7 +32,7 @@
 .card-container-pop {
   display: grid;
   grid-auto-flow: row;
-  overflow-x: auto;
+  /* overflow-x: auto; */
   row-gap: 20px;
 }
 

@@ -1,0 +1,47 @@
+.calender {
+  width: 47px;
+  height: 67px;
+  margin: 0;
+  border-radius: 10pt;
+  background-color: var(--background-color);
+  display: grid;
+  grid-auto-flow: row;
+  align-content: center;
+  /* align-content: center; */
+  align-self: center;
+}
+
+.calender-text {
+  font-family: "Muli-bold", sans-serif;
+  font-size: 10pt;
+  padding-bottom: 5px;
+  margin: 0;
+  text-align: center;
+  color: var(--primary-font-color);
+}
+
+.calender-day {
+  font-family: "Muli-Semibold", sans-serif;
+  font-size: 12pt;
+  padding-bottom: 5px;
+  margin: 0;
+  text-align: center;
+  color: var(--primary-font-color);
+}
+
+.calender-container {
+  width: 338pt;
+  display: grid;
+  grid-auto-flow: column;
+  overflow-x: auto;
+  column-gap: 5px;
+}
+.calender-container::-webkit-scrollbar {
+  display: none;
+}
+
+.active {
+  background-color: var(--calender-active);
+  color: black;
+  font-weight: bold;
+}
