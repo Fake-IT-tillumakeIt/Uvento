@@ -5,7 +5,7 @@ import contentPage from "./content.html";
 
 export default {
   title: "Pages/Content",
-  parameters: { layout: "centered" },
+  parameters: { layout: "fullscreen" },
 };
 
 export const Content = () => contentPage;

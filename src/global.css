@@ -32,3 +32,10 @@ textarea {
   margin: 0;
   font-family: "Quicksand", sans-serif;
 }
+
+#storybook-preview-wrapper.css-sqc8g1 {
+  width: 414px;
+  height: 896px;
+  margin: 0;
+  padding: 0;
+}
