@@ -2,6 +2,11 @@
   display: grid;
   grid-template-rows: auto 1fr auto;
   background-color: var(--background-color);
+  height: 100vh;
+}
+
+.main {
+  overflow: auto;
 }
 
 h4 {
